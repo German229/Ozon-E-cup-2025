@@ -1,0 +1,16 @@
+# Core compute & data libs
+pyspark>=3.5
+findspark>=2.0
+pandas>=2.2
+numpy>=1.26
+
+# ML & ranking
+scikit-learn>=1.4
+catboost>=1.2
+
+# Viz (used in notebooks)
+matplotlib>=3.8
+seaborn>=0.13
+
+# Parquet/Arrow interchange (recommended)
+pyarrow>=14.0

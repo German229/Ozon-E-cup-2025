@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+
+# Spark/Metastore
+derby.log
+metastore_db/
+
+# Data & heavy artifacts
+data/
+datasets/
+srv/
+*.parquet
+*.csv
+*.tsv
+*.zip
+
+# Reports/outputs
+outputs/
+reports/
